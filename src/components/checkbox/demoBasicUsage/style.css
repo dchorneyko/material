@@ -24,3 +24,45 @@ legend code {
 .ipsum {
   color: saddlebrown;
 }
+
+md-checkbox.recogniaBlack .md-container:after{
+      top: 4px;
+      right: 4px;
+      bottom: 4px;
+      left: 4px;
+}
+
+md-checkbox.recogniaBlack .md-container .md-icon {
+    transform: scale(0.6);
+    border-radius: 5px;
+    border: 2px solid #757575; 
+    background: #DDDDDD;
+  }
+
+md-checkbox.recogniaBlack .md-container .md-icon:after{
+    border-color:black;
+}
+md-checkbox.recogniaBlack .md-label{
+  margin-left: 25px;
+}
+
+md-checkbox.newTL .md-container:after{
+      top: 4px;
+      right: 4px;
+      bottom: 4px;
+      left: 4px;
+}
+
+md-checkbox.newTL .md-container .md-icon {
+    transform: scale(0.8);
+    border-radius: 5px;
+    border: 2px solid #757575; 
+  }
+
+md-checkbox.newTL.md-checked  .md-icon{
+  background-color: black;
+}
+
+md-checkbox.newTL .md-label{
+  margin-left: 25px;
+}
