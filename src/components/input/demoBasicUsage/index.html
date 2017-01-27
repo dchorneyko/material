@@ -82,13 +82,37 @@
             </div>
           </md-input-container>
         </div>
-
+  
         <md-input-container class="md-block">
           <label>Biography</label>
           <textarea ng-model="user.biography" md-maxlength="150" rows="5" md-select-on-focus></textarea>
         </md-input-container>
 
+        <br>
 
+      <md-content md-theme="docs-dark" layout-gt-sm="row" layout-padding>
+      <div>Recognia Input Style</div>     
+       </md-content>
+       
+      <div style="margin-top: 20px">
+        First name:
+        <md-input-container class="recogniaInput black">
+           <input ng-model="abc">
+        </md-input-container>
+      </div>
+      <div style="margin-top: 20px">
+        Start:
+        <md-input-container class="recogniaInput td">
+           <input ng-model="abcd">
+        </md-input-container>
+     </div>
+      <div style="margin-top: 20px">
+        <md-input-container md-no-float class="recogniaInput search">    
+           <input placeholder="Search" ng-model="search">
+        </md-input-container>
+         <i class="fa fa-search searchIcon" aria-hidden="true"></i>
+      </div>
+     
       </form>
     </div>
   </md-content>

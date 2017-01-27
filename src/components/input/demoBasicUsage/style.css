@@ -1,0 +1,40 @@
+md-input-container.recogniaInput{
+        margin: 0 0;
+        
+}
+
+md-input-container.recogniaInput div.md-errors-spacer{
+ min-height: 0px !important;
+}
+
+md-input-container.black input{
+     border-width: 1px 1px 1px 1px;
+     height: 25px; 
+     background-color: #272727;
+     color: white;
+}
+
+md-input-container.td input{
+     border-width: 1px 1px 1px 1px;
+     height: 40px; 
+     border-radius: 10px;
+}
+
+md-input-container.search input{
+     border-width: 1px 1px 1px 1px;
+     height: 40px; 
+     border-radius: 5px;
+     width: 600px;
+     padding-left: 15px;
+}
+
+.searchIcon{
+        margin-left: -40px;
+}
+
+/*md-input-container.search label{
+    transform: translate3d(0, 33px, 0) scale(1);
+    padding-left: 15px
+}*/
+
+
